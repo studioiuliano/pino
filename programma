@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<stdlib.h>
+main()
+{
+    int num1, num2, media;
+    printf("inserisci il primo numero ");
+    scanf("%d", &num1);
+    printf("inserisci il secondo numero ");
+    scanf("%d", &num2);
+  if(num1!=num2)
+
+        media=(num1+num2)/2;
+        printf("%d", media);
+  else
+        printf("%d", num1);
+system("PAUSE");
+}
